@@ -4,8 +4,6 @@ import annualTotals from "../_data/annual_totals";
 var createChart = (el, fieldname) => {
 
     var margin = {top: 20, right:20, bottom:20, left:40};
-
-    // Make sure you use the # here!
     var container = d3.select(el);
     var containerWidth = container.node().offsetWidth;
     var containerHeight = containerWidth * 0.66;
